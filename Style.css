@@ -1,0 +1,33 @@
+body {
+  //background-color: #ecf0f1;
+   background-image: url("background.jpg");
+}
+
+#container{
+  width: 400px;
+  margin: 3em auto 1em auto;
+  background: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  padding-bottom: 1.5em;
+  -webkit-box-shadow: #bdc3c7 0 5px 5px;
+  -moz-box-shadow: #bdc3c7 0 5px 5px;
+  box-shadow: #bdc3c7 0 5px 5px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+#leftSide{
+  width: 50%;
+  float: left;
+  padding-bottom: 10px;
+}
+
+#rightSide{
+  width: 50%;
+  float:right;
+  padding-bottom: 10px;
+}

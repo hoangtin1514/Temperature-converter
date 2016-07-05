@@ -1,0 +1,38 @@
+<html>
+<head>
+  <script type="text/javascript" src="Script.js"></script>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+  <div id = "container">
+
+    <h2> Temperature converter </h2>
+    <div id= "leftSide">
+      <h4>From:</h4>
+      <select id = "fromUnit" onchange="convert()">
+        <option value="1" selected="selected">Celcius</option>
+        <option value="2">Farenheit</option>
+        <option value="3">Kelvin</option>
+      </select>
+    </div>
+
+    <div id= "rightSide">
+      <h4>To:</h4>
+
+      <select id = "toUnit" onchange="convert()">
+        <option value="1" selected="selected">Celcius</option>
+        <option value="2">Farenheit</option>
+        <option value="3">Kelvin</option>
+      </select>
+
+    </div>
+    <p>
+      Input: 
+    </p>
+    <input type = "text" id="input" oninput="convert()"/>
+    <h5 id = "Result"> Result: </h5>
+
+  </div>
+
+</body>
+</html>
